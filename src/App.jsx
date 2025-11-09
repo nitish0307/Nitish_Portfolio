@@ -2,7 +2,6 @@ import { Home } from "lucide-react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { NotFound } from "./pages/NotFound"
 
-
 function App() {
 
   return (
@@ -10,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />}/>
-          <Route path='*' element={<NotFound />}/>
+          <Route path="*" element={<NotFound />}/>
         </Routes>
       </BrowserRouter>
     </>
